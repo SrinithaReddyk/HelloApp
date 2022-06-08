@@ -15,4 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void handleClick(View view) {
+        Toast.makeText(this, "Button Clicked ", Toast.LENGTH_SHORT).show();
+    }
 }
